@@ -3,7 +3,7 @@ import org.apache.commons.lang.StringUtils;
 
 public class StringUtil {
 	
-	public final String TRUN_STRING = " ... (truncated) ..."; 
+	public final String TRUN_STRING = " ... (truncated) ... "; 
 	
 	public  String truncate(String termsAndConditions,int maxLength){
 		String truncatedStr = "";
